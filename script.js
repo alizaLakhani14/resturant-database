@@ -1,4 +1,4 @@
-let foodsinn{
+let foodsinn {
     noOfbranches:3,
     branches: [
         {
@@ -16,6 +16,7 @@ let foodsinn{
                                 salary: 100000,
             
                 }
+
 juniorChefs: [
     "armia", "aliza", "farheen", "mohd", "hassan"
 ]
@@ -95,142 +96,154 @@ managementCommitee: [
     }
 
 ]
-gateKeeper: {
+gateKeeper: [{
     name: "khan",
-        age: 40,
-            salary: 25000,
-                shift: "day",
-                    
-                }
-gateKeeper: {
+    age: 40,
+    salary: 25000,
+    shift: "day",
+
+}
+    ,
+    gateKeeper: {
     name: "waqas",
-        age: 38,
-            salary: 25000,
-                shift: "night",
-                    
-                }
-            ]
-        }
+    age: 38,
+    salary: 25000,
+    shift: "night",
+
+}
+]
+
 hasFreeDelivery: true,
     hasValetParking: true,
         onFoodPanda: true,
             onEatOye: true,
-                onEatMubarak: true,
-                    {
-                        city: "Islamabad",
-                        area: "defence",
-                        staff: [
-                            head - chef: {
-                                name: "natasha",
-                                expertise: "Pakistani-Indian",
-                                qualification: "diploma-in-culinary-arts",
-                                age: 0,
-                                email: "arshad@gmail.com",
-                                facebookPage: "chef-arshad",
-                                experience: "12-years",
-                                salary: 100000,
+                onEatMubarak: true}
+                ,
 
-                            }
+{
+    city: "Islamabad",
+        area: "defence",
+            staff: [
+                head - chef: {
+                    name: "natasha",
+                    expertise: "Pakistani-Indian",
+                    qualification: "diploma-in-culinary-arts",
+                    age: 0,
+                    email: "arshad@gmail.com",
+                    facebookPage: "chef-arshad",
+                    experience: "12-years",
+                    salary: 100000,
+
+                }
                 juniorChefs: [
-                                "armia", "aliza", "farheen", "mohd", "hassan"
-                            ]
+                    "armia", "aliza", "farheen", "mohd", "hassan"
+                ]
                 waiters: [
-                                {
-                                    name: "wali"
+                    {
+                        name: "wali"
                         salary: 10000,
-                                    contactNo: 00000000,
-                                    age: 0,
-                                    experience: "fresher",
-                                    gender: "male",
-                                    designation: "junior-waiter"
+                        contactNo: 00000000,
+                        age: 0,
+                        experience: "fresher",
+                        gender: "male",
+                        designation: "junior-waiter"
 
-                                }
+                    }
+                    ,
                     {
-                                    name: "sadiq"
+                        name: "sadiq"
                         salary: 10000,
-                                    contactNo: 00000000,
-                                    age: 0,
-                                    experience: "2years",
-                                    gender: "male",
-                                    designation: "junior-waiter"
-                                }
+                        contactNo: 00000000,
+                        age: 0,
+                        experience: "2years",
+                        gender: "male",
+                        designation: "junior-waiter"
+                    }
+                    ,
                     {
-                                    name: "Raza"
+                        name: "Raza"
                         salary: 10000,
-                                    contactNo: 00000000,
-                                    age: 0,
-                                    experience: "1years",
-                                    gender: "male",
-                                    designation: "junior-waiter"
-                                }
+                        contactNo: 00000000,
+                        age: 0,
+                        experience: "1years",
+                        gender: "male",
+                        designation: "junior-waiter"
+                    }
+                    ,
                     {
-                                    name: "asad"
+                        name: "asad"
                         salary: 10000,
-                                    contactNo: 00000000,
-                                    age: 0,
-                                    experience: "5years",
-                                    gender: "male",
-                                    designation: "junior-waiter"
-                                }
+                        contactNo: 00000000,
+                        age: 0,
+                        experience: "5years",
+                        gender: "male",
+                        designation: "junior-waiter"
+                    }
+                    ,
                     {
-                                    name: "raza"
+                        name: "raza"
                         salary: 10000,
-                                    contactNo: 00000000,
-                                    age: 0,
-                                    experience: "2years",
-                                    gender: "male",
-                                    designation: "senior-waiter"
-                                }
+                        contactNo: 00000000,
+                        age: 0,
+                        experience: "2years",
+                        gender: "male",
+                        designation: "senior-waiter"
+                    }
 
-                            ]
+                ]
+                ,
                 managementCommitee: [
-                                {
-                                    name: "abid",
-                                    designation: "deputy-manager",
-                                    salary: 50000,
-                                    gender: "female",
-                                    contactNumber: 00000,
-                                    age: 0,
-                                }
                     {
-                                    name: "yaseen",
-                                    designation: "manager",
-                                    salary: 75000,
-                                    gender: "male",
-                                    contactNumber: 00000,
-                                    age: 0,
-                                }
+                        name: "abid",
+                        designation: "deputy-manager",
+                        salary: 50000,
+                        gender: "female",
+                        contactNumber: 00000,
+                        age: 0,
+                    }
+                    ,
                     {
-                                    name: "shahid",
-                                    designation: "coordinator",
-                                    salary: 45000,
-                                    gender: "male",
-                                    contactNumber: 00000,
-                                    age: 0,
-                                }
+                        name: "yaseen",
+                        designation: "manager",
+                        salary: 75000,
+                        gender: "male",
+                        contactNumber: 00000,
+                        age: 0,
+                    }
+                    ,
+                    {
+                        name: "shahid",
+                        designation: "coordinator",
+                        salary: 45000,
+                        gender: "male",
+                        contactNumber: 00000,
+                        age: 0,
+                    }
 
-                            ]
+                ]
+                ,
                 gateKeeper: {
-                                name: "raxa",
-                                age: 40,
-                                salary: 25000,
-                                shift: "day",
+                    name: "raxa",
+                    age: 40,
+                    salary: 25000,
+                    shift: "day",
 
-                            }
+                }
+                ,
                 gateKeeper: {
-                                name: "meesum",
-                                age: 38,
-                                salary: 25000,
-                                shift: "night",
+                    name: "meesum",
+                    age: 38,
+                    salary: 25000,
+                    shift: "night",
 
-                            }
+                }
 
-                        ]
-            hasFreeDelivery: true,
-                        hasValetParking: true,
-                        onFoodPanda: true,
-                        onEatOye: true,
-                        onEatMubarak: true,
+            ]
+    hasFreeDelivery: true,
+        hasValetParking: true,
+            onFoodPanda: true,
+                onEatOye: true,
+                    onEatMubarak: true,
                     }
 city: "murree",
     area: "nazimabad",
@@ -246,13 +259,15 @@ city: "murree",
                 salary: 100000,
 
             }
-                juniorChefs: [
+            ,
+            juniorChefs: [
                 "armia", "aliza", "farheen", "mohd", "hassan"
             ]
-                waiters: [
+            ,
+            waiters: [
                 {
-                    name: "kumail"
-                        salary: 10000,
+                    name: "kumail",
+                    salary: 10000,
                     contactNo: 00000000,
                     age: 0,
                     experience: "fresher",
@@ -260,36 +275,40 @@ city: "murree",
                     designation: "junior-waiter"
 
                 }
-                    {
-                    name: "kaiser"
-                        salary: 10000,
+                ,
+                {
+                    name: "kaiser",
+                    salary: 10000,
                     contactNo: 00000000,
                     age: 0,
                     experience: "2years",
                     gender: "male",
                     designation: "junior-waiter"
                 }
-                    {
-                    name: "waqas"
-                        salary: 10000,
+                ,
+                {
+                    name: "waqas",
+                    salary: 10000,
                     contactNo: 00000000,
                     age: 0,
                     experience: "1years",
                     gender: "male",
                     designation: "junior-waiter"
                 }
-                    {
-                    name: "gilani"
-                        salary: 10000,
+                ,
+                {
+                    name: "gilani",
+                    salary: 10000,
                     contactNo: 00000000,
                     age: 0,
                     experience: "5years",
                     gender: "male",
                     designation: "junior-waiter"
                 }
-                    {
-                    name: "asim"
-                        salary: 10000,
+                ,
+                {
+                    name: "asim",
+                    salary: 10000,
                     contactNo: 00000000,
                     age: 0,
                     experience: "2years",
@@ -298,7 +317,8 @@ city: "murree",
                 }
 
             ]
-                managementCommitee: [
+            ,
+            managementCommitee: [
                 {
                     name: "asif",
                     designation: "deputy-manager",
@@ -307,7 +327,8 @@ city: "murree",
                     contactNumber: 00000,
                     age: 0,
                 }
-                    {
+                ,
+                {
                     name: "rizwan",
                     designation: "manager",
                     salary: 75000,
@@ -315,7 +336,8 @@ city: "murree",
                     contactNumber: 00000,
                     age: 0,
                 }
-                    {
+                ,
+                {
                     name: "shah-jee",
                     designation: "coordinator",
                     salary: 45000,
@@ -325,14 +347,16 @@ city: "murree",
                 }
 
             ]
-                gateKeeper: {
+            ,
+            gateKeeper: {
                 name: "shahvez",
                 age: 40,
                 salary: 25000,
                 shift: "day",
 
             }
-                gateKeeper: {
+            ,
+            gateKeeper: {
                 name: "shahzain",
                 age: 38,
                 salary: 25000,
@@ -360,42 +384,49 @@ cusines: [
                 options: ["beef", "chicken", "mutton"]
 
             }
+            ,
             {
                 name: "bheja-fry",
                 smallPrice: 500,
                 largePrice: 1000,
                 options: ["beef", "mutton"]
             }
+            ,
             {
                 name: "biryani",
                 smallPrice: 500,
                 largePrice: 1000,
                 options: ["beef", "chicken", "mutton", "prawn"]
             }
+            ,
             {
                 name: "pulao",
                 smallPrice: 500,
                 largePrice: 1000,
                 options: ["beef", "chicken", "mutton", "prawn"]
             }
+            ,
             {
                 name: "handi",
                 smallPrice: 500,
                 largePrice: 1000,
                 options: ["beef", "chicken", "mutton",]
             }
+            ,
             {
                 name: "cheeseHandi",
                 smallPrice: 500,
                 largePrice: 1000,
                 options: ["beef", "chicken", "mutton",]
             }
+            ,
             {
                 name: "GreenChicken",
                 smallPrice: 500,
                 largePrice: 1000,
                 options: ["beef", "chicken", "mutton", "prawn"]
             }
+            ,
             {
                 name: "bihariChicken",
                 smallPrice: 500,
@@ -492,6 +523,7 @@ dishes: [
 
         ]
     }
+    
     }
+
 ]
-}
